@@ -99,5 +99,5 @@ body {
 }  
 
 @media (max-width: 960px) {
-    .titlearea { width: auto; }
+    .titlearea, .mainarea, .content, #clicker { width: auto; }
 }
