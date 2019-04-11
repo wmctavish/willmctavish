@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 153, 0);
+}
+
+.titlearea {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    padding-top: 50px;
+    background-color: white;
+    height: 400px;
+    width: 100%;
+}
+
+#welcomemsg {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    width: 500px;
+}
+
+#headshot {
+    width: 250px;
+    height: 250px;
+}
+
+#headshot img {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 50%;
+}
+
+.mainarea {
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+
+.objectarea {
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+
+#clicker {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.box {
+    
+    font-size: 10px;
+}
+
+.box h3 {
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+.content {
+    font-family: 'Work Sans', sans-serif;
+    display: block;
+    background-image: linear-gradient( rgb(230, 230, 230), rgb(207, 207, 207));
+    height: 0;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.displayed {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    display: block;
+    color: rgb(0, 0, 0);
+    height: 120px;
+    transition: all 0.3s ease-in-out;
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    margin: 0;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-bottom: 0px solid  rgb(230, 230, 230);
+    transition: all 0.3s ease-in-out;
+  }
+
+.triangled {
+    border-bottom: 15px solid  rgb(230, 230, 230);
+    transition: all 0.3s ease-in-out;
+}  
+
+@media (max-width: 960px) {
+    .titlearea { width: auto; }
+}
