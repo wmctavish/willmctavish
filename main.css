@@ -46,14 +46,9 @@ body {
     align-items: center;
 }
 
-#clicker {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-}
 
 .box {
-    
+    grid-row: 1;
     font-size: 10px;
 }
 
@@ -72,6 +67,7 @@ body {
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
+    grid-column: span 4/-1;
 }
 
 .displayed {
@@ -84,9 +80,10 @@ body {
 }
 
 .triangle {
-    width: 0px;
+    width: 1px;
     height: 0px;
-    margin: 0;
+    margin-right: 0;
+    margin-left: 25%;
     border-left: 55px solid transparent;
     border-right: 55px solid transparent;
     border-bottom: 0px solid  rgb(230, 230, 230);
@@ -99,5 +96,5 @@ body {
 }  
 
 @media (max-width: 960px) {
-    .titlearea, .mainarea, .content, #clicker { width: auto; }
+    .titlearea, .mainarea, .content, { width: auto; }
 }
