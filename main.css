@@ -30,6 +30,12 @@ body {
     border-radius: 50%;
 }
 
+#projects {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+}
+
 .mainarea {
     margin-top: 30px;
     margin-right: 5%;
@@ -60,22 +66,39 @@ body {
 
 .content {
     font-family: 'Work Sans', sans-serif;
-    display: block;
+    display: flex;
     background-image: linear-gradient( rgb(230, 230, 230), rgb(207, 207, 207));
     height: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     grid-column: span 4/-1;
 }
 
+.projectimg {
+    margin: 15px;
+    width: 50%;
+}
+
+.projectimg img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: auto
+}
+
+.projectinfo {
+    margin: 15px;
+    width: 50%;
+}
+
 .displayed {
     font-family: 'Work Sans', sans-serif;
     font-size: 15px;
-    display: block;
     color: rgb(0, 0, 0);
-    height: 120px;
+    height: 250px;
     transition: all 0.3s ease-in-out;
 }
 
