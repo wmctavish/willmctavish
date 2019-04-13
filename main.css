@@ -9,7 +9,7 @@ body {
     padding: 10px;
     padding-top: 50px;
     background-color: white;
-    height: 400px;
+    height: 300px;
     width: 100%;
 }
 
@@ -30,17 +30,44 @@ body {
     border-radius: 50%;
 }
 
+#about {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 50px;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 209, 140);
+    text-align: center;
+}
+
+#about p {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aboutme {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
 #projects {
     text-align: center;
     font-family: 'Work Sans', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .mainarea {
     margin-top: 30px;
-    margin-right: 5%;
-    margin-left: 5%;
-    border: 5px solid black;
+    margin-right: 15%;
+    margin-left: 15%;
+    border: 3px solid black;
     border-radius: 8px;
 }
 
@@ -56,6 +83,11 @@ body {
 .box {
     grid-row: 1;
     font-size: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.box:hover {
+    background-color: rgb(225, 225, 225);
 }
 
 .box h3 {
