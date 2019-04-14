@@ -37,7 +37,7 @@ body {
     flex-direction: column;
     padding: 10px;
     padding-top: 50px;
-    height: 300px;
+    max-height: auto;
     width: 100%;
     background-color: rgb(255, 209, 140);
     text-align: center;
@@ -110,25 +110,28 @@ body {
 
 .projectimg {
     margin: 15px;
-    width: 50%;
+    width: 40%;
 }
 
 .projectimg img {
     display: block;
+    margin-top: 15px;
     margin-right: auto;
     margin-left: auto;
-    width: 60%;
+    width: 80%;
     height: auto
 }
 
 .projectinfo {
+    text-align: center;
     margin: 15px;
-    width: 50%;
+    width: 60%;
 }
 
 .displayed {
     font-family: 'Work Sans', sans-serif;
-    font-size: 15px;
+    font-weight: 300;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     height: 250px;
     transition: all 0.3s ease-in-out;
