@@ -16,10 +16,10 @@ var content8 = document.getElementById("content8");
 document.getElementById("clickme1").addEventListener("click", () => {
     content1.classList.toggle("displayed");
     content1tri.classList.toggle("triangled");
-    if (content2.className || content3.className || content4.className == "content displayed") {
-        content2.className = "content";
-        content3.className = "content";
-        content4.className = "content";
+    if (content2.className || content3.className || content4.className == "contentrow1 displayed") {
+        content2.className = "contentrow1";
+        content3.className = "contentrow1";
+        content4.className = "contentrow2";
     };
     if (content2tri.className || content3tri.className || content4tri.className == "triangled") {
         content2tri.className = "triangle";
@@ -31,10 +31,10 @@ document.getElementById("clickme1").addEventListener("click", () => {
 document.getElementById("clickme2").addEventListener("click", () => {
     content2.classList.toggle("displayed");
     content2tri.classList.toggle("triangled");
-    if (content1.className || content3.className || content4.className == "content displayed") {
-        content1.className = "content";
-        content3.className = "content";
-        content4.className = "content";
+    if (content1.className || content3.className || content4.className == "contentrow1 displayed") {
+        content1.className = "contentrow1";
+        content3.className = "contentrow1";
+        content4.className = "contentrow2";
     };
     if (content1tri.className || content3tri.className || content4tri.className == "triangled") {
         content1tri.className = "triangle";
@@ -46,10 +46,10 @@ document.getElementById("clickme2").addEventListener("click", () => {
 document.getElementById("clickme3").addEventListener("click", () => {
     content3.classList.toggle("displayed");
     content3tri.classList.toggle("triangled");
-    if (content1.className || content2.className || content4.className == "content displayed") {
-        content1.className = "content";
-        content2.className = "content";
-        content4.className = "content";
+    if (content1.className || content2.className || content4.className == "contentrow1 displayed") {
+        content1.className = "contentrow1";
+        content2.className = "contentrow1";
+        content4.className = "contentrow2";
     };
     if (content1tri.className || content2tri.className || content4tri.className == "triangled") {
         content1tri.className = "triangle";
@@ -61,10 +61,10 @@ document.getElementById("clickme3").addEventListener("click", () => {
 document.getElementById("clickme4").addEventListener("click", () => {
     content4.classList.toggle("displayed");
     content4tri.classList.toggle("triangled");
-    if (content1.className || content2.className || content3.className == "content displayed") {
-        content1.className = "content";
-        content2.className = "content";
-        content3.className = "content";
+    if (content1.className || content2.className || content3.className == "contentrow1 displayed") {
+        content1.className = "contentrow1";
+        content2.className = "contentrow1";
+        content3.className = "contentrow1";
     };
     if (content1tri.className || content2tri.className || content3tri.className == "triangled") {
         content1tri.className = "triangle";
@@ -77,10 +77,10 @@ document.getElementById("clickme4").addEventListener("click", () => {
 
 document.getElementById("clickme5").addEventListener("click", () => {
     content5.classList.toggle("displayed");
-    if (content6.className || content6.className || content6.className == "content displayed") {
-        content6.className = "content";
-        content7.className = "content";
-        content8.className = "content";
+    if (content6.className || content6.className || content6.className == "contentrow2 displayed") {
+        content6.className = "contentrow2";
+        content7.className = "contentrow2";
+        content8.className = "contentrow2";
     }
 })
 
