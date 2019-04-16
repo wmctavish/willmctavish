@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(27, 41, 75);
 }
 
 .titlearea {
@@ -40,8 +40,9 @@ body {
     padding-top: 50px;
     height: auto;
     width: 95%;
-    background-color: rgb(255, 209, 140);
+    background-color: rgb(225, 225, 225);
     text-align: center;
+    border-bottom: 3px solid rgb(94, 94, 94);
 }
 
 #about p {
@@ -57,6 +58,7 @@ body {
 }
 
 #projects {
+    color: rgb(255,255,255);
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     font-size: 30px;
@@ -67,7 +69,7 @@ body {
     margin-top: 30px;
     margin-right: 5%;
     margin-left: 5%;
-    border: 5px solid black;
+    border: 3px solid rgb(94, 94 ,94);
     border-radius: 8px;
 }
 
