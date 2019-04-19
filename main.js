@@ -59,8 +59,8 @@ document.getElementById("clickme4").addEventListener("click", () => {
     if (content5.className == "contentrow2 displayed") {
         content5.className = "contentrow2";
     };
-    if (content5tri.className == "triangled") {
-        content5tri.classList.toggle("triangle");
+    if (content5tri.className == "triangle triangled") {
+        content5tri.className = "triangle";
     };
 });
 
@@ -70,7 +70,7 @@ document.getElementById("clickme5").addEventListener("click", () => {
     if (content4.className == "contentrow2 displayed") {
         content4.className = "contentrow2";
     };
-    if (content4tri.className == "triangled") {
-        content4tri.classList.toggle("triangle");
+    if (content4tri.className == "triangle triangled") {
+        content4tri.className = "triangle";
     };
 });
