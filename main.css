@@ -10,7 +10,8 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: white;
     height: auto;
     width: 100%;
@@ -61,7 +62,7 @@ body {
 .titlearea {
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
+    padding-bottom: 10px;
     padding-top: 50px;
     background-color: white;
     width: 100%;
@@ -89,7 +90,7 @@ body {
     font-size: 25px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding-bottom: 10px;
     padding-top: 50px;
     max-height: auto;
     width: 100%;
@@ -150,11 +151,12 @@ body {
 .box {
     grid-row: 1;
     font-size: 10px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .box:hover {
-    background-color: rgb(225, 225, 225);
+    color: white;
+    background-color: rgb(2, 168, 168);
 }
 
 .box h3 {
@@ -215,13 +217,14 @@ body {
     min-height: auto;
     height: 250px;
     transition: all 0.3s ease-in-out;
+    overflow-y: auto;
 }
 
 .triangle {
     width: 1px;
     height: 0px;
-    margin-right: 0;
-    margin-left: 30%;
+    margin-right: auto;
+    margin-left: auto;
     border-left: 55px solid transparent;
     border-right: 55px solid transparent;
     border-bottom: 0px solid  rgb(230, 230, 230);
