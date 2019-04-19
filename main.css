@@ -157,10 +157,10 @@ body {
 .box:hover {
     color: white;
     background-color: rgb(2, 168, 168);
+    cursor: pointer;
 }
 
 .box h3 {
-    cursor: pointer;
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
 }
@@ -200,7 +200,13 @@ body {
     margin-right: auto;
     margin-left: auto;
     width: 80%;
-    height: auto
+    height: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.projectimg img:hover {
+    width: 83%;
+    box-shadow: 0 0 15px 2px rgb(2, 168, 168);
 }
 
 .projectinfo {
@@ -280,4 +286,31 @@ body {
 
 @media (max-width: 960px) {
     .titlearea, .mainarea, .content, { width: auto; }
+}
+
+/* Resume page CSS */
+
+.summary {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    max-height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.summary p {
+    font-weight: 300;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resume-contact-button {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }

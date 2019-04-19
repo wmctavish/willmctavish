@@ -174,7 +174,7 @@ body {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 100%;
+    width: 95%;
     height: auto
 }
 
@@ -185,17 +185,18 @@ body {
 
 .displayed {
     font-family: 'Work Sans', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     height: 420px;
     transition: all 0.3s ease-in-out;
+    overflow-y: auto;
 }
 
 .triangle {
     width: 1px;
     height: 0px;
-    margin-right: 0;
-    margin-left: 32%;
+    margin-right: auto;
+    margin-left: auto;
     border-left: 55px solid transparent;
     border-right: 55px solid transparent;
     border-bottom: 0px solid  rgb(230, 230, 230);
