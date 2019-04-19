@@ -8,10 +8,33 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     padding: 10px;
-    padding-top: 50px;
+    padding-top: 30px;
     background-color: white;
     height: auto;
     width: 100%;
+}
+
+#nav {
+    display: grid;
+    grid-template-columns: auto;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+#nav p {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#nav nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#nav a {
+    margin: 0;
+    text-decoration: underline;
 }
 
 #welcomemsg {
@@ -29,6 +52,13 @@ body {
     width: 100% !important;
     height: 100% !important;
     border-radius: 50%;
+}
+
+#contact-button-div {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #about {
@@ -55,6 +85,10 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-size: 30px;
     font-weight: 400;
+}
+
+#projects-div {
+    width: 100%;
 }
 
 #projects {
