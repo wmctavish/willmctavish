@@ -255,6 +255,7 @@ body {
 
 #contact {
     margin: 0;
+    margin-top: 20px;
     font-family: 'Work Sans', sans-serif;
     font-size: 30px;
     font-weight: 400;
@@ -282,6 +283,10 @@ body {
 #contact-details a {
     text-decoration: none;
     color: rgb(2, 168, 168);
+}
+
+#disclaimer {
+    font-size: 15px;
 }
 
 @media (max-width: 960px) {
